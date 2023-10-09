@@ -2,8 +2,8 @@
 This is a game where users send a certain amount of crypto to the smart contract and the smart contract probably sends back double or nothing
 
 ## Rules
-1. A user may send a certain amount of crypto to the smart contract.
-2. If the amount sent by the user in more than the current treasury balance of the smart contract, the amount is sent back to the user as-is.
+1. A user may send a certain amount of crypto to the smart contract to get started.
+2. If the amount sent by the user is more than the current treasury balance of the smart contract, the amount is sent back to the user as-is.
 3. The smart contract may send back double the amount sent by the user if rule 2 above is satisfied.
 4. The smart contract may also send nothing back to the user.
 
