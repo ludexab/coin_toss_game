@@ -47,7 +47,7 @@ contract CoinToss {
         payable(_userAddress).transfer(_amount);
     }
 
-    function sendMoney() public payable {
+    function receive() public payable {
         require(msg.value < address(this).balance, "Rule 1. Amount cannot be greater than treasury balance");
         uint paymentDecision = determinePaymentOption();
         if (paymentDecision == 0 && address(this).balance >= msg.value*2){ //   Ensure the treasury has enough balance to pay user double of amount sent
